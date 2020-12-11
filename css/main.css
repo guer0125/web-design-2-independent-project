@@ -1,9 +1,137 @@
 html {
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  color: #fff;
+}
+
+.p-header {
+  color: #fff;
+}
+
+header {
+  background-color: #b01681;
+}
+
+.wellpayed {
+  color: #fff;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.nav .current {
+  background-color: #000;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+}
+
+.icons-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #b01681;
+  border-top: 3px solid #b01681;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+}
+
+.social > li {
+  margin: 0 .5em 0 0;
+  width: 3em;
+}
+
+.copyright {
+  padding: 0 1rem;
+  width: 100%;
+  background-color: #b01681;
+}
+
+.btn-colour {
+  background-color: #b01681;
+  border: 4px solid #b01681;
+  border-radius: 8px;
+}
+
+.btn-colour:hover {
+  background-color: #000;
+  border: 4px solid #000;
+}
+
+section {
+  border-top: 4px solid #b01681;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #cba1bd;
+}
+
+table {
+  min-width: 50em;
+}
+
+.medical {
+  width: 7em;
+}
+
+.name-icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-banner {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+  .container-banner {
+    display: block;
+    position: relative;
+  }
+
+  .right-banner {
+    position: absolute;
+    top: 79px;
+    left: 67px;
+  }
+
 }
